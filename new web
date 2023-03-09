@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #4f80ff; font-family: Poppins">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/logorbm.png" style="width: 100px" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" arianavbarSupportedContent-controls="" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-dark ms-auto mb-2 mb-lg-0 gap-3">
+            <li id="google_translate_element"></li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reseller.html">Reseller</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="docs.html">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-xs btn-light px-3" style="color: #4f80ff" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <section class="" style="background-color: #4f80ff">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mt-5 justify-content-center">
+            <h1 class="fw-bold" style="color: #ffffff">What Is RBM. ?</h1>
+            <p class="fs-5" style="color: #ffffff">
+              RBM (Repair Business Management) is a website-based application for repair recap, spare parts management, tracking repair for custumers. and also equipped with marketing tools, landing pages branding for smartphone repair
+              businesses.
+            </p>
+            <div class="row mt-4 mb-2">
+              <div class="col-md-6 mb-2">
+                <a class="btn btn-lg btn-regist" style="background-color: #001d6e; color: white; border-radius: 10px; width: 100%" href="#">Register</a>
+              </div>
+              <div class="col-md-6">
+                <a class="btn btn-lg btn-outline-light" style="color: white; border-radius: 10px; width: 100%" href="#">Demo</a>
+              </div>
+            </div>
+            <div class="row mb-5">
+              <div class="col-md-5 col-6 mb-2 d-flex gap-3">
+                <a href="" class="text-decoration-none">
+                  <img src="assets/img/download-apk.png" alt="" />
+                </a>
+                <a href="https://www.facebook.com/groups/1164428361139406" target="_blank" class="text-decoration-none">
+                  <img src="assets/img/join-fb.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-5 img-hero text-end">
+            <div class="">
+              <img src="assets/img/new-hero.png" class="" style="width: 80%" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="feature">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md one-product">
+            <h2 class="">One Product</h2>
+            <p>Answer All Need Yours Repair Business</p>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-3 col-6 text-center">
+            <div class="feature-card">
+              <div class="mb-2"><img src="assets/img/online-shop.png" alt="" /></div>
+              <div class="card-body">
+                <h5 class="card-title px-3 feature-title fw-semibold">Store Website</h5>
+                <p class="card-text feature-text px-3">Online Repair Status Check, Selling Products On The Store Website</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center">
+            <div class="feature-card">
+              <div><i class="fa-solid fa-file-lines fa-3x mb-2"></i></div>
+              <div class="card-body">
+                <h5 class="card-title px-3 feature-title fw-semibold">Repair Management & Profit Share Report</h5>
+                <p class="card-text feature-text px-3">Expenditure Report, Print Customer Data Repair</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center">
+            <div class="feature-card">
+              <div><i class="fa-solid fa-user-gear fa-3x mb-2"></i></div>
+              <div class="card-body">
+                <h5 class="card-title px-3 feature-title fw-semibold">Repair Reporting & Customer Service</h5>
+                <p class="card-text feature-text px-3">Cashier Sales Report, Phone Part Management</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6 text-center">
+            <div class="feature-card">
+              <div class="mb-2"><img src="assets/img/bell.png" alt="" /></div>
+              <div class="card-body">
+                <h5 class="card-title px-3 feature-title fw-semibold">Phone Part Stock Reminder</h5>
+                <p class="card-text feature-text px-3">Phone Repair Progress, Phone & Accesories Sales Report</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="get-how">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">How To Get Token</div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-5">
+                    <img src="assets/img/img-token.svg" alt="" />
+                  </div>
+                  <div class="col-md-7">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td class="fw-bold">1.</td>
+                          <td class="px-3">
+                            Call this Contact for overseas users
+                            <a href="" class="btn btn-success btn-sm text-white">Whatsapp</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="fw-bold">2.</td>
+                          <td class="px-3"><a href="reseller.html" target="_blank" rel="noopener noreferrer">Search Reseller</a> For user indonesia</td>
+                        </tr>
+                        <tr>
+                          <td class="fw-bold">3.</td>
+                          <td class="px-3">Contact Phone Number</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">How To Register Reseller</div>
+              <div class="card-body">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-5 regist-reseller">
+                    <img src="assets/img/img-reseller.svg" alt="" />
+                  </div>
+                  <div class="col-md-7">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td class="fw-bold">1.</td>
+                          <td class="px-3">Contact Phone Number <a href="https://api.whatsapp.com/send/?phone=628112871998&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">Admin</a></td>
+                        </tr>
+                        <tr>
+                          <td class="fw-bold">2.</td>
+                          <td class="px-3">Send Format Whatsapp <span id="text1">(rbm_reseller # namaowner # namatoko # no.telepon # alamat)</span></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="btn-copied">
+                      <button class="btn btn-secondary px-3" id="copy-text-btn" onclick="copy('text1')">Copy Format<i class="fa-regular fa-copy px-2"></i></button>
+                      <div class="alert alert-primary alert-sm" id="alert" role="alert">The format has been copied</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="product">
+      <div class="container">
+        <div class="title">
+          <h5>Best Features From Us</h5>
+        </div>
+        <div class="row group-card">
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="bg-img">
+                  <img src="assets/img/dashboard.png" alt="" />
+                </div>
+                <h5>Admin Panel</h5>
+                <p>Sales Report, Ledger Administration & Bookkeeping</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-body body-small">
+                <div class="bg-img">
+                  <img src="assets/img/report.png" alt="" />
+                </div>
+                <h5>Daily Transaction Journal</h5>
+                <p>Repair business and sales journal</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="bg-img">
+                  <img src="assets/img/service.png" alt="" />
+                </div>
+                <h5>Phone Repair Apps</h5>
+                <p>Transaction journal & Income statement</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="bg-img">
+                  <img src="assets/img/handphone.png" alt="" />
+                </div>
+                <h5>Phone & Accesories Sales</h5>
+                <p>Transaction journal & Income statement</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="bg-img">
+                  <img src="assets/img/sparepart.png" alt="" />
+                </div>
+                <h5>Phone Sparepart</h5>
+                <p>Transaction journal & Income statement</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-body">
+                <div class="bg-img">
+                  <img src="assets/img/person.png" alt="" />
+                </div>
+                <h5>Human Resource</h5>
+                <p>Profit share scheme with employees, salary</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-6">
+            <div class="card">
+              <div class="card-body body-small">
+                <div class="bg-img">
+                  <img src="assets/img/setting.png" alt="" />
+                </div>
+                <h5>Management Store</h5>
+                <p>Offer & Promotion</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gstart">
+      <div class="container">
+        <div class="title">
+          <h5>Getting Started</h5>
+        </div>
+        <div class="row video-get">
+          <div class="col-md-6">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/Z-btZnjb-Kc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="mt-auto" style="background-color: #4f80ff">
+      <section class="footer p-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 text-white">
+              <img src="assets/img/logorbm.png" alt="" />
+            </div>
+            <div class="col-md-3 text-center text-white">
+              <i class="fa-solid fa-phone fa-lg"></i>
+              <p class="footer">0811-2871-998</p>
+            </div>
+            <div class="col-md-3 text-center text-white">
+              <i class="fa-solid fa-envelope fa-lg"></i>
+              <p class="footer">salles@rbm-borneo.com</p>
+              <p style="margin-top: -15px">support@rbm-borneo.com</p>
+            </div>
+
+            <div class="col-md-3 text-center link">
+              <div>
+                <img src="assets/img/download-apk.png" alt="" />
+              </div>
+              <div>
+                <img class="mt-2" src="assets/img/join-fb.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- akhir -->
+    <script>
+      function copy(copyId) {
+        let inputElement = document.createElement("input");
+        inputElement.type = "text";
+        let copyText = document.getElementById(copyId).innerHTML;
+        inputElement.value = copyText;
+        document.body.appendChild(inputElement);
+        inputElement.select();
+        document.execCommand("copy");
+        document.body.removeChild(inputElement);
+
+        document.getElementById("alert").style.display = "block";
+        setTimeout(function () {
+          document.getElementById("alert").style.display = "none";
+        }, 2000);
+      }
+    </script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?
+          cb=googleTranslateElementInit"
+    ></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
