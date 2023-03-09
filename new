@@ -1,0 +1,35 @@
+ <div class="row ss mb-5">
+              <div class="col-4 col-6">
+                <a href="" class="text-decoration-none">
+                  <img src="assets/img/download-apk.png"  alt="" />
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="https://www.facebook.com/groups/1164428361139406" target="_blank" class="text-decoration-none">
+                  <img src="assets/img/join-fb.png" alt="" />
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="https://www.facebook.com/groups/1164428361139406" target="_blank" class="text-decoration-none">
+                  <img src="assets/img/apk.png" alt="" />
+                </a>
+              </div>
+            </div>
+            
+            .ss .col-4 {
+    width: 40%;
+    margin-bottom: 5px;
+  }
+            
+            
+            
+            .ss img {
+  width: 100%;
+}
+.ss .col-4 {
+  padding-right: 10px !important;
+}
+ .ss .col-4 {
+    width: 40%;
+    margin-bottom: 5px;
+  }
