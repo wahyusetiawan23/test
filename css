@@ -1,0 +1,340 @@
+body {
+  font-family: Poppins;
+}
+.how .card {
+  border-radius: 20px !important;
+  border: none;
+}
+.btn-outline-light:hover {
+  background-color: #001d6e;
+}
+
+.btn-regist:hover {
+  background-color: #fff !important;
+  color: #001d6e !important;
+  transition: 0.5s;
+}
+
+.wave {
+  max-height: 350px;
+}
+
+.support {
+  position: fixed;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  width: 153.5px;
+  height: 50.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #25d366;
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 10px 20px;
+}
+
+.support:hover {
+  background-color: #fff;
+  color: #25d366;
+}
+
+.btn-download {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.download:hover {
+  background-color: #001d6e !important;
+  color: #fff !important;
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+
+.download {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  color: #001d6e;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* style accordion */
+.header-accordion {
+  font-size: 18px;
+  font-weight: 600;
+  color: #202020;
+}
+
+.accordion-bg .accordion {
+  border: 1px solid #00000020;
+}
+
+.accordion-button {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #c4ddff;
+  color: #202020;
+}
+
+.accordion a {
+  text-decoration: none;
+  color: #4f80ff;
+  font-size: 14px;
+}
+
+.goog-te-combo,
+.goog-te-banner *,
+.goog-te-ftab *,
+.goog-te-menu *,
+.goog-te-menu2 *,
+.goog-te-balloon * {
+  font-family: "Poppins" !important;
+  font-size: 14px !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+  margin: 5px 0 !important;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 5px !important;
+  border-radius: 8px;
+  border: none;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: #4f80ff !important;
+}
+
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+.distributor .card {
+  background-color: #c4ddff;
+}
+
+.reseller .form-select {
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 6px !important;
+}
+
+.reseller .btn {
+  background-color: #4f80ff;
+  border-color: #4f80ff;
+  border-radius: 10px;
+}
+/* style new */
+.feature-card .card-body .card-text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.feature {
+  background-image: url(/assets/img/bg-feature.png);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.get-how img {
+  width: 173px;
+}
+
+.regist-reseller img {
+  width: 187px;
+}
+
+.get-how .card {
+  margin-bottom: 20px;
+}
+
+.get-how .card-header {
+  background-color: #c4ddff;
+  color: #202020;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.get-how table {
+  margin-top: 10px;
+}
+
+.get-how table a {
+  color: #4f80ff;
+}
+
+.product {
+  background-color: #c4ddff;
+}
+
+.product .title h5,
+.feature h2,
+.gstart h5 {
+  font-size: 28px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.feature .one-product p {
+  margin-top: -10px;
+}
+.get-how,
+.gstart {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.feature,
+.product {
+  padding: 50px 0 50px 0 !important;
+}
+
+.product .group-card img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.product .group-card .bg-img {
+  background-color: #c4ddff;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#alert {
+  display: none;
+}
+
+.get-how .alert {
+  margin-top: 10px;
+  padding: 5px !important;
+  text-align: center;
+}
+
+.get-how .btn-copied .btn {
+  margin-top: 5px;
+  margin-left: 30px !important;
+}
+
+.product .group-card h5 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product .group-card {
+  margin-top: 20px;
+}
+.product .card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.product .card .card-body {
+  padding-bottom: 0px;
+}
+
+.product .card .body-small {
+  padding-bottom: 24px;
+}
+
+.gstart .video-get {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.get-how .card {
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.get-how .card-header {
+  border: none;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+
+.btn-copied .btn:hover {
+  background-color: #4f80ff;
+  border: none;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 992px) {
+  .product .card .body-small {
+    padding-bottom: 0px !important;
+  }
+  .get-how .col-md-6 {
+    width: 100% !important;
+  }
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+  .img-hero {
+    text-align: center !important;
+  }
+  .feature,
+  .product {
+    padding: 30px 0px !important;
+  }
+  .feature h2,
+  .product .title h5 {
+    font-size: 24px !important;
+  }
+  .feature-title,
+  .product .group-card h5 {
+    font-size: 16px;
+  }
+  .feature-text,
+  .product .group-card p {
+    font-size: 14px;
+  }
+  .product .row {
+    --bs-gutter-x: 10px;
+  }
+  .product .card {
+    margin-bottom: 10px;
+  }
+  .text-white {
+    text-align: center;
+  }
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:link,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:visited,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:hover,
+.VIpgJd-ZVi9od-l4eHX-hSRGPd:active {
+  display: none;
+}
+
+.footer img {
+  width: 120px;
+}
