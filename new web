@@ -76,7 +76,7 @@
         </div>
       </div>
     </section>
-    <section class="feature">
+    <section class="feature" style="background-image: url(/assets/img/bg-feature.png)">
       <div class="container">
         <div class="row text-center">
           <div class="col-md one-product">
